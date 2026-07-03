@@ -112,6 +112,346 @@ const teamLogoUrls = {
   "VCO Dresden": "https://www.volleyball-bundesliga.de/uploads/33ebca47-ee88-4505-80a3-8f625a651bdc/Dresden.png"
 };
 
+const matchArticles = {
+  "3004": [
+    {
+      "title": "Eintracht Spontent erkämpft Punkt.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778429330",
+      "origin": "ESD"
+    },
+    {
+      "title": "Saisonauftakt geglückt: NawaRo setzt sich",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778408614",
+      "origin": "STR"
+    },
+    {
+      "title": "Saisonauftakt in Düsseldorf",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778383087",
+      "origin": "ESD"
+    },
+    {
+      "title": "Das Warten hat ein Ende",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778383050",
+      "origin": "STR"
+    }
+  ],
+  "3009": [
+    {
+      "title": "Heimspielauftakt geglückt",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778488295",
+      "origin": "TVP"
+    },
+    {
+      "title": "Heimspielpremiere in der 2. Liga Pro",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778438626",
+      "origin": "TVP"
+    }
+  ],
+  "3018": [
+    {
+      "title": "Knapp am Punktgewinn vorbei.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778607710",
+      "origin": "ESD"
+    },
+    {
+      "title": "Nervenstark zum Derbysieg",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778578046",
+      "origin": "DSK"
+    },
+    {
+      "title": "Köln gastiert bei Eintracht Spontent",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778548365",
+      "origin": "DSK"
+    },
+    {
+      "title": "Zweites Heimspiel für die Eintracht.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778545520",
+      "origin": "ESD"
+    }
+  ],
+  "3028": [
+    {
+      "title": "Heimpremiere gegen Düsseldorf",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778598774",
+      "origin": "TVD"
+    }
+  ],
+  "3032": [
+    {
+      "title": "Erschöpft und das hat man gesehen",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778812821",
+      "origin": "TVH"
+    },
+    {
+      "title": "Eintracht Spontent schlägt Hörde souverän.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778810850",
+      "origin": "ESD"
+    },
+    {
+      "title": "Dortmund zu Gast in Düsseldorf.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778773865",
+      "origin": "ESD"
+    }
+  ],
+  "3040": [],
+  "3043": [
+    {
+      "title": "Waldgirmes dreht das Spiel",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779286379",
+      "origin": "TVW"
+    },
+    {
+      "title": "Nach dem Pokalspiel ist vor dem Liga Spiel…",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779254320",
+      "origin": "TVW"
+    }
+  ],
+  "3053": [
+    {
+      "title": "Volleys fehlt in Düsseldorf der Rhythmus",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779396672",
+      "origin": "BVL"
+    },
+    {
+      "title": "Verdienter 3:0 Heimsieg.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779395028",
+      "origin": "ESD"
+    },
+    {
+      "title": "Derby in Düsseldorf.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779352993",
+      "origin": "ESD"
+    },
+    {
+      "title": "Erkältungswelle hat Volleys im Griff",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779350528",
+      "origin": "BVL"
+    }
+  ],
+  "3058": [
+    {
+      "title": "VfL Oythe wird Favoritenrolle gerecht",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779482999",
+      "origin": "OYT"
+    },
+    {
+      "title": "Der nächste Aufsteiger kommt zu Gast",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779410414",
+      "origin": "OYT"
+    }
+  ],
+  "3067": [
+    {
+      "title": "Einen Punkt verschenkt.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779628212",
+      "origin": "ESD"
+    },
+    {
+      "title": "Immerhin ein Auswärtspunkt",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779597802",
+      "origin": "NVM"
+    },
+    {
+      "title": "Markkleeberg zu Gast.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779576010",
+      "origin": "ESD"
+    },
+    {
+      "title": "Am 2. Advent Auswärtsspiel in Düsseldorf",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779542747",
+      "origin": "NVM"
+    }
+  ],
+  "3076": [
+    {
+      "title": "Raben bleiben zu Hause weiter ungeschlagen…",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779695655",
+      "origin": "RRV"
+    },
+    {
+      "title": "Rote Raben peilen Dreier an",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779678112",
+      "origin": "RRV"
+    }
+  ],
+  "3081": [
+    {
+      "title": "Drei Punkte unter dem Weihnachtsbaum.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779815586",
+      "origin": "ESD"
+    },
+    {
+      "title": "Berlin zu Gast.",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779770956",
+      "origin": "ESD"
+    }
+  ],
+  "3088": [
+    {
+      "title": "Wieder Fünf Sätze",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778886511",
+      "origin": "SWS"
+    },
+    {
+      "title": "Die nächsten Punkte sollen aufs Konto",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778862007",
+      "origin": "SWS"
+    }
+  ],
+  "3095": [
+    {
+      "title": "3:1-Heimsieg über Düsseldorf",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780004838",
+      "origin": "STR"
+    },
+    {
+      "title": "Doppel-Heimspielwochenende",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779989063",
+      "origin": "STR"
+    }
+  ],
+  "3100": [],
+  "3109": [
+    {
+      "title": "Sechster Sieg in Folge",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780203090",
+      "origin": "DSK"
+    },
+    {
+      "title": "Rheinderby in Halle 22",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780164270",
+      "origin": "DSK"
+    }
+  ],
+  "3119": [
+    {
+      "title": "Auswärts-Wochenende ohne Punktgewinn",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780298858",
+      "origin": "TVD"
+    }
+  ],
+  "3123": [
+    {
+      "title": "Verbesserung auf dem Feld und Ergebnis",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780407507",
+      "origin": "TVH"
+    },
+    {
+      "title": "Mit Stimmung zum Erfolg",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780352644",
+      "origin": "TVH"
+    }
+  ],
+  "3131": [],
+  "3134": [],
+  "3144": [
+    {
+      "title": "Volleys erleiden einen Dämpfer",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780759531",
+      "origin": "BVL"
+    },
+    {
+      "title": "Volleys befinden sich vor Derby im Aufwind…",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780720813",
+      "origin": "BVL"
+    }
+  ],
+  "3149": [],
+  "3158": [
+    {
+      "title": "Leider nur ein Satzgewinn",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=781009586",
+      "origin": "NVM"
+    },
+    {
+      "title": "Bedeutungsvolles Heimspiel",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780961141",
+      "origin": "NVM"
+    }
+  ],
+  "3167": [
+    {
+      "title": "Souveräner Auftritt der Roten Raben",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=781153542",
+      "origin": "RRV"
+    }
+  ],
+  "3172": [
+    {
+      "title": "BBSC holt 2 Sätze beim Saisonhöhepunkt",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780829959",
+      "origin": "BER"
+    },
+    {
+      "title": "Saisonhöhepunkt für den BBSC",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=780781304",
+      "origin": "BER"
+    }
+  ],
+  "3179": [
+    {
+      "title": "Zum Saisonabschluss noch ein Sieg",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=781386693",
+      "origin": "SWS"
+    },
+    {
+      "title": "Konstanz in der Leistung fehlt",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=781353801",
+      "origin": "SWS"
+    }
+  ],
+  "3189": [
+    {
+      "title": "VCO Dresden siegt 3:0 nach Achterbahnfahrt…",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=779021406",
+      "origin": "VCO"
+    },
+    {
+      "title": "Erste Heimspiele an diesem Wochenende",
+      "url": "https://www.volleyball-bundesliga.de/popup/article/fullArticle.xhtml?articleId=778979204",
+      "origin": "VCO"
+    }
+  ],
+  "3203": []
+};
+
+const officialReportUrls = {
+  "3004": "https://distributor.sams-score.de/scoresheet/pdf/208332e9-b3a9-43e5-aad4-34a82f56af84/3004",
+  "3009": "https://distributor.sams-score.de/scoresheet/pdf/1b232d69-e718-4f66-a8ef-9df3b548d64d/3009",
+  "3018": "https://distributor.sams-score.de/scoresheet/pdf/600448d6-814e-4936-a245-5248306bd6b0/3018",
+  "3028": "https://distributor.sams-score.de/scoresheet/pdf/f1291a8d-ae79-448f-81c5-c9d8b1c983f6/3028",
+  "3032": "https://distributor.sams-score.de/scoresheet/pdf/92f41024-13c1-443e-8757-2a198753c4ae/3032",
+  "3040": "https://distributor.sams-score.de/scoresheet/pdf/276f2a7f-1091-4304-80bb-aac64dc48b32/3040",
+  "3043": "https://distributor.sams-score.de/scoresheet/pdf/3facf766-7220-4769-b191-f53f57d1fc69/3043",
+  "3053": "https://distributor.sams-score.de/scoresheet/pdf/62623b2e-05ad-4a4c-9104-26e02c389738/3053",
+  "3058": "https://distributor.sams-score.de/scoresheet/pdf/e8bc6b01-f11a-4f5b-8fc4-5ca807edd6c3/3058",
+  "3067": "https://distributor.sams-score.de/scoresheet/pdf/ac49b905-8f5d-491f-b407-df09409be118/3067",
+  "3076": "https://distributor.sams-score.de/scoresheet/pdf/57c5dc88-7f05-4e6b-a675-94b9693aff50/3076",
+  "3081": "https://distributor.sams-score.de/scoresheet/pdf/5f5c6ac3-95fa-4b8c-ad93-8e0103adbdbd/3081",
+  "3088": "https://distributor.sams-score.de/scoresheet/pdf/6d38c358-c2da-4c56-8401-8138d7515574/3088",
+  "3095": "https://distributor.sams-score.de/scoresheet/pdf/d747dc17-4ece-4eb8-be7c-ed54649eace0/3095",
+  "3100": "https://distributor.sams-score.de/scoresheet/pdf/c9aeb1ab-2860-4275-9c53-a29cd757c8f0/3100",
+  "3109": "https://distributor.sams-score.de/scoresheet/pdf/1c768949-b202-4b06-b2ca-75c6b4365065/3109",
+  "3119": "https://distributor.sams-score.de/scoresheet/pdf/1092efa0-8cc8-4bce-89c9-398956a3a687/3119",
+  "3123": "https://distributor.sams-score.de/scoresheet/pdf/ee00f50d-6d33-4767-8a04-53420d7c1c9d/3123",
+  "3131": "https://distributor.sams-score.de/scoresheet/pdf/d2ac2149-ae88-4ee5-b49c-aa1555a79f7a/3131",
+  "3134": "https://distributor.sams-score.de/scoresheet/pdf/7f081514-2bd6-4a1c-914b-8dda32bd7738/3134",
+  "3144": "https://distributor.sams-score.de/scoresheet/pdf/da40e47b-7d0d-4a9d-80b7-381f187099c3/3144",
+  "3149": "https://distributor.sams-score.de/scoresheet/pdf/65d2801d-27e8-4d1a-a9f3-9bc614f7dc41/3149",
+  "3158": "https://distributor.sams-score.de/scoresheet/pdf/019782c4-d28a-4e94-9a36-187b5b6ccd97/3158",
+  "3167": "https://distributor.sams-score.de/scoresheet/pdf/e934ffa2-84b4-4136-a09d-f184b199eeba/3167",
+  "3172": "https://distributor.sams-score.de/scoresheet/pdf/347cecc5-0d98-469d-bf2b-78168fe6ffde/3172",
+  "3179": "https://distributor.sams-score.de/scoresheet/pdf/036096d2-e30d-4344-bcd2-6cf83c33d22b/3179",
+  "3189": "https://distributor.sams-score.de/scoresheet/pdf/b91174ef-fd31-43b6-9f22-d0a82cf8fe16/3189",
+  "3203": "https://distributor.sams-score.de/scoresheet/pdf/177b3409-eafa-497f-b0e4-44ba86de4c0e/3203"
+};
+
+const unavailableStatistics = [
+  3004, 3018, 3032, 3053, 3067, 3081, 3088,
+  3100, 3119, 3131, 3134, 3149, 3167, 3179, 3203
+];
+
+
 const youtubeViewsDate = "25.06.2026";
 
 const youtubeViews = {
@@ -596,7 +936,149 @@ const playerProfileUrls = {
   "Amelie Grawert": "https://www.volleyball-bundesliga.de/popup/teamMember/teamMemberDetails.xhtml?teamId=776309386&userId=70817295"
 };
 
-const gameSummaries = {};
+const gameSummaries = {
+  "3004": [
+    "Eintracht Spontent Düsseldorf unterlag zum Saisonauftakt dem Topteam NawaRo Straubing nach einem Volleyballkrimi mit 2:3.",
+    "Die Gastgeberinnen führten zweimal nach Sätzen und begegneten Straubing über weite Strecken auf Augenhöhe.",
+    "Im Tiebreak setzte sich NawaRo mit 15:12 durch, Düsseldorf sicherte sich für die leidenschaftliche Leistung aber einen verdienten Punkt."
+  ],
+  "3009": [
+    "Düsseldorf verlor das Auswärtsspiel beim TV Planegg-Krailling deutlich mit 0:3.",
+    "Zu Beginn war die Partie noch ausgeglichen, anschließend übernahm Planegg mit druckvollen Aufschlägen und starker Blockarbeit die Kontrolle.",
+    "Die Gastgeberinnen steigerten ihre Überlegenheit von Satz zu Satz und ließen der Eintracht insgesamt nur 40 Ballpunkte."
+  ],
+  "3018": [
+    "Eintracht Spontent Düsseldorf musste sich DSHS SnowTrex Köln zu Hause mit 1:3 geschlagen geben.",
+    "Nach einem schwachen ersten Durchgang fand die Eintracht besser in die Partie und gewann den zweiten Satz mit 25:23.",
+    "In den folgenden beiden Sätzen blieb Düsseldorf in Reichweite, doch Köln agierte in den entscheidenden Phasen stabiler und abgeklärter."
+  ],
+  "3028": [
+    "Düsseldorf verlor die Auswärtspartie beim TV Dingolfing mit 1:3.",
+    "Die Eintracht entschied den engen Auftaktsatz mit 26:24 für sich, danach übernahmen die Gastgeberinnen zunehmend das Spiel.",
+    "Dingolfing gewann die folgenden drei Sätze immer deutlicher und ließ Düsseldorf in den letzten beiden Durchgängen nur 24 Ballpunkte."
+  ],
+  "3032": [
+    "Eintracht Spontent gewann das Heimspiel gegen den TV Hörde klar mit 3:0.",
+    "Hörde startete mit einer 4:0-Führung, doch Düsseldorf reagierte nach einer frühen Auszeit und setzte sich mit aggressiven, platzierten Angriffen durch.",
+    "Der zweite Satz blieb bis zum Ende eng, bevor die Eintracht im dritten Durchgang wieder deutlich die Kontrolle übernahm."
+  ],
+  "3040": [
+    "Düsseldorf unterlag den ESA Grimma Volleys auswärts mit 1:3.",
+    "Nach zwei verlorenen Sätzen stemmte sich die Eintracht gegen die Niederlage und gewann einen umkämpften dritten Durchgang mit 29:27.",
+    "Grimma fand im vierten Satz wieder zur klareren Linie und beendete die Partie mit 25:17."
+  ],
+  "3043": [
+    "Eintracht Spontent verlor beim TV Waldgirmes trotz eines starken Beginns mit 1:3.",
+    "Düsseldorf überzeugte im ersten Satz mit druckvollem Angriff und aufmerksamem Block und gewann deutlich mit 25:15.",
+    "Waldgirmes stellte sich anschließend besser auf das Spiel der Gäste ein und entschied die folgenden drei Sätze zunehmend klar für sich."
+  ],
+  "3053": [
+    "Düsseldorf gewann das Heimspiel gegen die BayerVolleys Leverkusen mit 3:0.",
+    "Die personell geschwächten Gäste fanden nach schwierigen Trainingswochen nur selten ihren gewohnten Rhythmus, während die Eintracht konsequent Druck ausübte.",
+    "Im dritten Satz wehrte Leverkusen sich noch einmal energisch, doch Düsseldorf vollendete den verdienten Erfolg mit 28:26."
+  ],
+  "3058": [
+    "Eintracht Spontent unterlag dem favorisierten VfL Oythe auswärts mit 0:3.",
+    "Düsseldorf startete mutig und brachte Oythe im ersten Satz mit variablem Aufschlagdruck zeitweise deutlich in Rückstand.",
+    "Nach zwei frühen Auszeiten stabilisierten sich die Gastgeberinnen und kontrollierten den weiteren Verlauf der Partie."
+  ],
+  "3067": [
+    "Düsseldorf gewann das Heimspiel gegen Neuseenland-Volleys Markkleeberg mit 3:2.",
+    "Nach einer 2:1-Satzführung verpasste es die Eintracht, ihre gute Leistung im vierten Durchgang fortzusetzen und gab dadurch einen Tabellenpunkt ab.",
+    "Im Tiebreak fand das Team wieder zu seinem Spiel und sicherte sich mit 15:8 zwei wichtige Zähler."
+  ],
+  "3076": [
+    "Eintracht Spontent verlor beim Tabellenführer Rote Raben Vilsbiburg klar mit 0:3.",
+    "Die Gastgeberinnen blieben auch in ihrem sechsten Heimspiel ungeschlagen und entschieden die Partie bereits nach 62 Minuten.",
+    "Düsseldorf hielt in den ersten beiden Sätzen phasenweise mit, brach im dritten Durchgang aber deutlich ein und verlor diesen mit 8:25."
+  ],
+  "3081": [
+    "Düsseldorf beendete die Hinrunde mit einem 3:1-Heimsieg gegen den BBSC Berlin.",
+    "Nach dem knapp verlorenen Auftaktsatz drehte die Eintracht die Partie und gewann auch den umkämpften dritten Durchgang mit 26:24.",
+    "Der klare vierte Satz besiegelte den dritten Heimsieg in Folge und brachte Düsseldorf drei wichtige Punkte."
+  ],
+  "3088": [
+    "Düsseldorf gewann das fünfte Satzspiel bei den Sparkassen Wildcats Stralsund mit 3:2.",
+    "Beide Mannschaften wechselten sich mit Satzgewinnen ab, wobei starke Phasen immer wieder von Fehlern und Leistungsschwankungen abgelöst wurden.",
+    "Im Tiebreak blieb die Eintracht stabiler und entschied den fünften Durchgang mit 15:12 für sich."
+  ],
+  "3095": [
+    "Eintracht Spontent verlor bei NawaRo Straubing mit 1:3.",
+    "Straubing dominierte die ersten beiden Sätze, ehe Düsseldorf mit einem 25:23 im dritten Durchgang zurückschlug.",
+    "Auch im vierten Satz leistete die Eintracht lange Widerstand, konnte die Überlegenheit der Gastgeberinnen in der Schlussphase aber nicht brechen."
+  ],
+  "3100": [
+    "Düsseldorf unterlag dem TV Planegg-Krailling im Heimspiel mit 0:3.",
+    "Nach einem klar verlorenen ersten Satz steigerte sich die Eintracht in jedem weiteren Durchgang.",
+    "Im dritten Satz fehlten beim 23:25 nur zwei Ballpunkte zum Satzgewinn, Planegg brachte den Dreisatzsieg jedoch ohne Verlängerung ins Ziel."
+  ],
+  "3109": [
+    "Eintracht Spontent verlor das intensive Rheinderby bei DSHS SnowTrex Köln mit 1:3.",
+    "Düsseldorf fand gut in die Begegnung und glich nach dem verlorenen Auftaktsatz mit einem 25:19 zum 1:1 aus.",
+    "Köln gewann den dritten Durchgang deutlich und entschied den engen vierten Satz mit 26:24 durch größere Nervenstärke."
+  ],
+  "3119": [
+    "Düsseldorf besiegte den TV Dingolfing zu Hause souverän mit 3:0.",
+    "Die personell geschwächten Gäste kamen aus einem belastenden Auswärts-Doppelwochenende und konnten dem konstanten Druck der Eintracht nur phasenweise standhalten.",
+    "Spontent kontrollierte alle drei Sätze und gab insgesamt lediglich 52 Ballpunkte ab."
+  ],
+  "3123": [
+    "Eintracht Spontent verlor beim TV Hörde nach gewonnenem Auftaktsatz mit 1:3.",
+    "Düsseldorf nutzte die anfänglichen Unsicherheiten der Gastgeberinnen konsequent, doch Hörde steigerte sich danach in allen Spielelementen.",
+    "Die folgenden drei Sätze blieben jeweils eng, gingen aber mit 25:23, 25:23 und 25:22 allesamt an Hörde."
+  ],
+  "3131": [
+    "Düsseldorf musste sich den ESA Grimma Volleys nach fünf Sätzen mit 2:3 geschlagen geben.",
+    "Nach dem verlorenen ersten Durchgang drehte die Eintracht die Partie zunächst mit zwei klaren Satzgewinnen.",
+    "Grimma erzwang den Tiebreak und setzte sich dort mit 15:9 durch, sodass Düsseldorf ein Tabellenpunkt blieb."
+  ],
+  "3134": [
+    "Eintracht Spontent verlor das Heimspiel gegen den TV Waldgirmes mit 0:3.",
+    "Alle drei Sätze verliefen lange offen, Düsseldorf konnte jedoch keine der engen Schlussphasen für sich entscheiden.",
+    "Waldgirmes gewann die Durchgänge mit 25:23, 25:22 und 25:21 und nahm dadurch alle drei Punkte mit."
+  ],
+  "3144": [
+    "Düsseldorf gewann das Auswärtsderby bei den BayerVolleys Leverkusen mit 3:2.",
+    "Die Eintracht ging zweimal nach Sätzen in Führung, Leverkusen erzwang jedoch jeweils den Ausgleich.",
+    "Im Tiebreak setzte sich Spontent mit 15:11 durch und belohnte sich für die stabilere Schlussphase mit zwei Punkten."
+  ],
+  "3149": [
+    "Düsseldorf verlor ein außergewöhnlich enges Heimspiel gegen den VfL Oythe mit 2:3.",
+    "Nach vier umkämpften Sätzen führte die Eintracht zwischenzeitlich mit 2:1, verpasste den Sieg aber im vierten Durchgang beim 28:30.",
+    "Im Tiebreak setzte sich Oythe deutlich mit 15:9 durch, sodass Düsseldorf nur ein Tabellenpunkt blieb."
+  ],
+  "3158": [
+    "Eintracht Spontent gewann das wichtige Auswärtsspiel bei Neuseenland-Volleys Markkleeberg mit 3:1.",
+    "Markkleeberg entschied den ersten Satz für sich, anschließend steigerte Düsseldorf die Stabilität unter dem Druck des Abstiegskampfs.",
+    "Die Eintracht gewann die folgenden drei Durchgänge und nahm drei wertvolle Punkte aus Markkleeberg mit."
+  ],
+  "3167": [
+    "Eintracht Spontent verlor gegen den bereits feststehenden Meister Rote Raben Vilsbiburg mit 0:3.",
+    "Düsseldorf hielt alle drei Sätze eng und erreichte jeweils mindestens 23 Punkte, konnte aber keine Schlussphase für sich entscheiden.",
+    "Vilsbiburg vollendete den Auswärtssieg nach 67 Minuten, wobei Zuspielerin Jenni Liu zur MVP gewählt wurde."
+  ],
+  "3172": [
+    "Eintracht Spontent gewann vor der Rekordkulisse von 3.845 Zuschauern beim BBSC Berlin mit 3:2.",
+    "Düsseldorf lag zweimal nach Sätzen zurück, dominierte dann aber den vierten Durchgang mit 25:13.",
+    "Der Tiebreak blieb bis zum Ende offen und ging knapp mit 15:13 an die Eintracht."
+  ],
+  "3179": [
+    "Düsseldorf beendete die Saison mit einer 2:3-Heimniederlage gegen die Sparkassen Wildcats Stralsund.",
+    "Die Eintracht gewann den ersten und dritten Satz deutlich, während starke Leistungsschwankungen beiden Teams immer wieder die Initiative überließen.",
+    "Stralsund glich zweimal aus und entschied den Tiebreak schließlich mit 15:10 für sich."
+  ],
+  "3189": [
+    "Eintracht Spontent verlor beim VCO Dresden trotz dreier enger Sätze mit 0:3.",
+    "Düsseldorf brachte die Gastgeberinnen in jedem Durchgang unter Druck, konnte die eigenen Führungen und Chancen aber nicht konsequent nutzen.",
+    "Besonders knapp war der dritte Satz, den Dresden erst mit 28:26 zum Gesamtsieg abschloss."
+  ],
+  "3203": [
+    "Düsseldorf unterlag dem VCO Dresden im Heimspiel mit 1:3.",
+    "Nach zwei mit 19:25 verlorenen Sätzen kämpfte sich die Eintracht mit einem 25:20 im dritten Durchgang zurück.",
+    "Der vierte Satz blieb bis zum Ende offen, ging aber mit 26:24 an Dresden."
+  ]
+};
+
 
 const games = [
   {
